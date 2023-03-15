@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: "A short description for this namespace"
+    openshift.io/display-name: "Display name of this namespace"
+  name: replace-me
