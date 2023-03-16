@@ -5,7 +5,7 @@ metadata:
 spec:
   hard:
     # resource quotas
-    requests.cpu: "0.5"
+    requests.cpu: "1"
     requests.memory: 1Gi
-    limits.cpu: "1"
-    limits.memory: 2Gi
+    limits.cpu: "2"
+    limits.memory: 4Gi
