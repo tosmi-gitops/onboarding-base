@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: quota-small
+  name: quota-large
 spec:
   hard:
     # resource quotas
