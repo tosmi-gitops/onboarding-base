@@ -7,5 +7,9 @@ spec:
     # resource quotas
     requests.cpu: "1"
     requests.memory: 1Gi
-    limits.cpu: "4"
-    limits.memory: 8Gi
+
+    # do not specify cpu limits:
+    # https://home.robusta.dev/blog/stop-using-cpu-limits
+    # limits.cpu: "1"
+
+    limits.memory: 4Gi
