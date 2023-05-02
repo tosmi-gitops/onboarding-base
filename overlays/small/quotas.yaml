@@ -5,11 +5,11 @@ metadata:
 spec:
   hard:
     # resource quotas
-    requests.cpu: "0.1"
-    requests.memory: 128Mi
+    requests.cpu: "1"
+    requests.memory: 1Gi
 
     # do not specify cpu limits:
     # https://home.robusta.dev/blog/stop-using-cpu-limits
     # limits.cpu: "1"
 
-    limits.memory: 1Gi
+    limits.memory: 2Gi
